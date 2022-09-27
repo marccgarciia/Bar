@@ -10,7 +10,6 @@
 /*ESTILOS PARA NAVEGADOR RESPONSIBE*/
 
 
-
 .sliderRESPONSIVE {
     width: 100%;
     height: auto;
@@ -32,6 +31,44 @@
 #boton {
     text-align: center;
     padding: 100px;
+
+}
+#info {
+    background-image: url(../img/6.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.blur {
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px 20px;
+
+}
+
+#ubi{
+    background-color: #F1DA82;
+}
+
+#ubi h1 {
+    text-align: center;
+    padding: 150px;
+}
+
+iframe{
+    border-radius: 500px;
+}
+.blur h1 {
+    text-align: center;
+    font-size: 80px;
+    color: white;
+}
+
+.blur p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
 }
 a:link, a:visited, a:active {
     text-decoration:none;
@@ -355,6 +392,14 @@ input[type="checkbox"] {
         height: auto;
     }
 
+    iframe{
+        border-radius: 500px;
+        width: 100%;
+    }
+    
+    #ubi h1 {
+        font-size: 20px;
+    }
     .texto1{
         font-size: 20px;
     }
